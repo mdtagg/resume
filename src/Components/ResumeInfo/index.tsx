@@ -1,4 +1,5 @@
 import { InfoBand } from "../InfoBand";
+import { SectionTitle } from "../SectionTitle";
 
 const ResumeInfo = () => {
     return ( 
@@ -10,17 +11,9 @@ const ResumeInfo = () => {
                 >
                 </img>
                 <div className="mx-6 mt-3 w-fit flex flex-col gap-1 justify-center">
-                    <div className="flex items-center justify-center gap-2">
-                        <h2 
-                            className="text-base font-semibold h-max w-max"
-                        >
-                            PROFILE INFO
-                        </h2>
-                        <span 
-                            className="h-0 w-20 border border-black"
-                        >
-                        </span>
-                    </div>
+                    <SectionTitle
+                        title="PROFILE INFO"
+                    />
                     <p className="text-[.6rem] leading-[15px] text-left">
                         Self taught front-end developer with a portfolio 
                         of projects written primarily in react, typescript, javascript, css/sass/tailwind, and html. 
@@ -36,17 +29,17 @@ const ResumeInfo = () => {
                 </div>
                 <div className="flex flex-col bg-white justify-center gap-1 px-2">
                     <InfoBand
-                        svg="phone"
+                        icon="phone"
                         type="Phone"
                         text="805-630-3833"
                     />
                     <InfoBand
-                        svg="email"
+                        icon="email"
                         type="Email"
                         text="mdtagg91@gmail.com"
                     />
                     <InfoBand
-                        svg="github"
+                        icon="github"
                         type="Github"
                         text="https://github.com/mdtagg"
                     />

@@ -1,25 +1,25 @@
 import { Icon } from '@iconify/react';
 
 interface InfoBandProps {
-    svg:string
+    icon:string
     type:string
     text:string
 }
 
 const InfoBand = (props:InfoBandProps) => {
-    const { svg, type, text } = props
+    const { icon, type, text } = props
 
-    let icon = ""
+    let iconType = ""
 
-    switch(svg) {
+    switch(icon) {
         case "phone":
-            icon="material-symbols:phone-in-talk"
+            iconType="material-symbols:phone-in-talk"
             break
         case "email":
-            icon = "ic:twotone-mail" 
+            iconType = "ic:twotone-mail" 
             break
         case "github":
-            icon = "mdi:github"
+            iconType = "mdi:github"
             break
     }
 
@@ -27,7 +27,7 @@ const InfoBand = (props:InfoBandProps) => {
         <div className="flex items-center gap-1">
             <Icon
                 className="bg-black"
-                icon={icon}
+                icon={iconType}
                 color="#fde047"
             />
             <div className="text-[.5rem] leading-[0.4rem]">
