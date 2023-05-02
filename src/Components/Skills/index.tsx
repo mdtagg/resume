@@ -1,8 +1,17 @@
-import { ProgressBar } from "../ProgressBar";
+import { Skill } from "./Skill";
 
 const Skills = () => {
+
+    const skills = [
+        {skill:"React",progress:"90%"},
+        {skill:"Javascript",progress:"90%"},
+        {skill:"CSS/Tailwind",progress:"95%"},
+        {skill:"Git",progress:"85%"},
+        {skill:"Typescript",progress:"80%"}
+    ]
+
     return ( 
-        <div className="flex flex-col justify-center items-center h-full w-36 bg-zinc-800 text-white px-5 gap-2">
+        <div className="flex flex-col justify-center items-center h-full w-36 bg-zinc-800 text-white px-5 gap-4">
             <p className="text-xl font-bold">Skills</p>
             <p className="text-sm font-semibold">Personal Skills</p>
             <ul className="flex flex-col text-[.5rem] items-start list-disc px-4">
@@ -17,52 +26,14 @@ const Skills = () => {
             </ul>
             <p className="text-sm font-semibold">Technical Skills</p>
             <ul className="w-full flex flex-col text-xs gap-2">
-                <li className="flex flex-col gap-1">
-                    <div className="flex justify-between">
-                        <p>React</p>
-                        <p>90%</p>
-                    </div>
-                    <ProgressBar
-                        progress={"90%"}
-                    />
-                </li>
-                <li>
-                    <div className="flex justify-between">
-                        <p>Javascript</p>
-                        <p>90%</p>
-                    </div>
-                    <ProgressBar
-                        progress={"95%"}
-                    />
-                </li>
-                <li>
-                    <div className="flex justify-between">
-                        <p>CSS/Tailwind</p>
-                        <p>95%</p>
-                    </div>
-                    <ProgressBar
-                        progress={"95%"}
-                    />
-                </li>
-                
-                <li>
-                    <div className="flex justify-between">
-                        <p>Git</p>
-                        <p>85%</p>
-                    </div>
-                    <ProgressBar
-                        progress={"80%"}
-                    />
-                </li>
-                <li>
-                    <div className="flex justify-between">
-                        <p>TypeScript</p>
-                        <p>80%</p>
-                    </div>
-                    <ProgressBar
-                        progress={"75%"}
-                    />
-                </li>
+                {skills.map(entry => {
+                    return (
+                        <Skill
+                            skill={entry.skill}
+                            progress={entry.progress}
+                        />
+                    )
+                })}
             </ul>
         </div>
      );

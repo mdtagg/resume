@@ -21,7 +21,7 @@ const ResumeInfo = () => {
                         >
                         </span>
                     </div>
-                    <p className="text-[.5rem] leading-[15px]">
+                    <p className="text-[.6rem] leading-[15px] text-left">
                         Self taught front-end developer with a portfolio 
                         of projects written primarily in react, typescript, javascript, css/sass/tailwind, and html. 
                         I enjoy creating and designing tools that provide value for other people. I am always learning and find
