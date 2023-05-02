@@ -1,14 +1,14 @@
 
 import { ResumeInfo } from "./Components/ResumeInfo"
-import { CoverLetter } from "./Components/CoverLetter"
+import { Background } from "./Components/Background"
 
 function App() {
 
   return (
-  <>
+  <div className="h-screen w-screen">
     <ResumeInfo/>
-    <CoverLetter/>
-  </>
+    <Background/>
+  </div>
   )
 }
 
