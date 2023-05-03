@@ -1,9 +1,9 @@
 import { Skills } from "../Skills";
-import { Experience } from "../Experience/experience";
+import { Experience } from "../Experience";
 
 const Background = () => {
     return ( 
-        <div className="h-2/3">
+        <div className="flex h-2/3">
             <Skills/>
             <Experience/>
         </div>

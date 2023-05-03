@@ -10,11 +10,11 @@ const ResumeInfo = () => {
                     src="../../src/assets/portrait.jpg"
                 >
                 </img>
-                <div className="mx-6 mt-3 w-fit flex flex-col gap-1 justify-center">
+                <div className=" w-fit flex flex-col gap-1 justify-center">
                     <SectionTitle
                         title="PROFILE INFO"
                     />
-                    <p className="text-[.6rem] leading-[15px] text-left">
+                    <p className="text-[.6rem] leading-[15px] text-left mx-6 mt-3">
                         Self taught front-end developer with a portfolio 
                         of projects written primarily in react, typescript, javascript, css/sass/tailwind, and html. 
                         I enjoy creating and designing tools that provide value for other people. I am always learning and find
