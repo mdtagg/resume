@@ -1,4 +1,5 @@
 import { Skill } from "./Skill";
+import { v4 as uuidv4 } from "uuid"
 
 const Skills = () => {
 
@@ -29,6 +30,7 @@ const Skills = () => {
                 {skills.map(entry => {
                     return (
                         <Skill
+                            key={uuidv4()}
                             skill={entry.skill}
                             progress={entry.progress}
                         />

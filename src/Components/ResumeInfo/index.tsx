@@ -15,7 +15,7 @@ const ResumeInfo = () => {
                         title="PROFILE INFO"
                     />
                     <p className="text-[.6rem] leading-[15px] text-left mx-6 mt-3">
-                        Self taught front-end developer with a portfolio 
+                        Self taught front-end developer with a little over a year of experience and a portfolio 
                         of projects written primarily in react, typescript, javascript, css/sass/tailwind, and html. 
                         I enjoy creating and designing tools that provide value for other people. I am always learning and find
                         great satisfaction in solving problems. 

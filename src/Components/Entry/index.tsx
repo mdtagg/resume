@@ -1,3 +1,4 @@
+import { v4 as uuidv4 } from 'uuid';
 
 interface EntryProps {
     dateStart:string 
@@ -13,12 +14,12 @@ const Entry = (props:EntryProps) => {
 
     return (
         <div className="flex  text-[.6rem] ml-5 ">
-            <div className="flex flex-col font-bold w-1/5">
+            <div className="items-start ml-1 flex flex-col font-bold w-1/5">
                 <p>{dateStart}</p>
                 <p>{dateEnd}</p>
             </div>
             <div className="h-full relative z-10 w-1/5 flex flex-col justify-start items-center">
-                <div className="h-4 w-4 rounded-full border border-black"></div>
+                <div className="h-3 w-3 rounded-full border border-black"></div>
                 <div className="h-full border border-black"></div>
             </div>
             <div className="font-bold w-3/5 flex flex-col gap-1">
@@ -30,7 +31,7 @@ const Entry = (props:EntryProps) => {
                 }
                 <ul className="flex flex-col text-[.5rem] font-normal list-disc w-full gap-1">
                     {summary.map((entry) => {
-                        return <li>{entry}</li>
+                        return <li key={uuidv4()}>{entry}</li>
                     })}
                 </ul>
             </div>

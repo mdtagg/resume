@@ -6,21 +6,22 @@ const Experience =  () => {
     const summaries = {
         "weatherApp":
         [
-            "Built with React and Tailwind, later converted to Typescript",
+            "Built with React and Tailwind and later converted to Typescript",
             "Processes data from APIs, gives users information relating to rock types and the weather",
             "Uses a variety of React hooks, both built in and custom",
-            "Dynamically renders layouts based on user input"
+            "Dynamically renders layouts based on user input",
+            "Styled responsively"
         ],
         "REI": 
         [
             "Consistently in top sales ranks",
-            "Trained most areas of the store within 2 months"
+            "Taught rock climbing skills and tactics to members"
         ],
         "EDUCATION":
         [
-            "Wrote shipping route optimization modeling programs in LINGO",
+            "Wrote shipping route optimization modeling programs with LINGO",
             "Frequently worked within multi-cultural teams to present research",
-            "Consulted with a local business owner to help develop operational strategies"
+            "Consulted with a local business owner to help develop new operational strategies"
         ]
     }
 
