@@ -11,7 +11,7 @@ const Skills = () => {
     ]
 
     return ( 
-        <div className="flex flex-col justify-center items-center h-full w-36 bg-zinc-800 text-white px-5 gap-4">
+        <div className="flex flex-col pt-5 items-center h-full w-36 bg-zinc-800 text-white px-5 gap-4">
             <p className="text-xl font-bold">Skills</p>
             <p className="text-sm font-semibold">Personal Skills</p>
             <ul className="flex flex-col text-[.5rem] items-start list-disc px-4">
@@ -25,7 +25,7 @@ const Skills = () => {
                 <li>Public Speaking/Presentation</li>
             </ul>
             <p className="text-sm font-semibold">Technical Skills</p>
-            <ul className="w-full flex flex-col text-xs gap-2">
+            <ul className="w-full flex flex-col text-xs gap-3">
                 {skills.map(entry => {
                     return (
                         <Skill

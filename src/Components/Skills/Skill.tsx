@@ -10,7 +10,7 @@ const Skill = (props:SkillProps) => {
     return ( 
         <li className="flex flex-col gap-1">
             <div className="flex justify-between">
-                <p>{skill}</p>
+                <p className="font-semibold">{skill}</p>
                 <p>{progress}</p>
             </div>
             <ProgressBar
