@@ -24,13 +24,13 @@ const InfoBand = (props:InfoBandProps) => {
     }
 
     return ( 
-        <div className="flex items-center gap-1">
+        <div className="flex items-center gap-1 ">
             <Icon
                 className="bg-black"
                 icon={iconType}
                 color="#fde047"
             />
-            <div className="text-[.5rem] leading-[0.4rem]">
+            <div className="text-[.5rem] leading-[0.4rem] wide:text-[.7rem] wide:flex wide:flex-col wide:gap-1">
                 <p className="font-bold">{type}</p>
                 <p>{text}</p>
             </div>

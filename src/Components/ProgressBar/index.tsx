@@ -7,6 +7,7 @@ const ProgressBar = (props:ProgressBarProps) => {
     const { progress } = props
 
     const progressVariant = 
+    progress === "80%" ? "w-[80%]" :
     progress === "85%" ? "w-[85%]" :
     progress === "90%" ? "w-[90%]" :
     "w-[95%]"

@@ -6,11 +6,11 @@ export default {
   ],
   theme: {
     screens: {
-      'sm': {
-        'raw': `only screen and (max-height: 980px) and (max-width:480px)`
+    'sm': {
+      'raw': `only screen and (max-height: 980px) and (max-width:480px)`
       },
-      'wide': {
-        'raw': `only screen and (max-height: 480px) and (max-width: 960px)`
+    'wide': {
+      'raw': `only screen and (max-height: 480px) and (max-width: 960px)`
     },
     'lg': {
       'min': '1023px'
