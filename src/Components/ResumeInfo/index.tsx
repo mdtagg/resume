@@ -10,7 +10,7 @@ const ResumeInfo = () => {
                     src="../../src/assets/portrait.jpg"
                 >
                 </img>
-                <div className=" w-fit flex flex-col gap-1 justify-center">
+                <div className=" bg-white w-fit flex flex-col gap-1 justify-center">
                     <SectionTitle
                         title="ABOUT ME"
                     />
