@@ -13,8 +13,8 @@ const Entry = (props:EntryProps) => {
     const { dateStart,dateEnd,title,company,summary } = props
 
     return (
-        <div className="flex text-[.6rem] ml-5 wide:text-[.5rem]">
-            <div className="items-start ml-1 flex flex-col font-bold w-1/5 wide:wide:w-[10%]">
+        <div className="flex text-[.6rem] wide:text-[.5rem]">
+            <div className="text-[.5rem] items-start flex flex-col font-bold w-1/5 wide:wide:w-[10%]">
                 <p>{dateStart}</p>
                 <p>{dateEnd}</p>
             </div>
@@ -29,7 +29,7 @@ const Entry = (props:EntryProps) => {
                         {company}
                     </p>
                 }
-                <ul className="flex flex-col text-[.5rem] font-normal list-disc w-full gap-1 wide:gap-0">
+                <ul className="flex flex-col text-[.5rem] font-normal list-disc list-inside w-full gap-1 wide:gap-0">
                     {summary.map((entry) => {
                         return <li key={uuidv4()}>{entry}</li>
                     })}

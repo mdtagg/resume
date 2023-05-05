@@ -1,6 +1,7 @@
 
-import { ResumeInfo } from "./Components/ResumeInfo"
-import { Background } from "./Components/Background"
+import { PersonalInfo } from "./Components/PersonalInfo"
+import { Skills } from "./Components/Skills"
+import { Experience } from "./Components/Experience"
 import { useEffect } from "react"
 
 function App() {
@@ -15,9 +16,16 @@ function App() {
   
 
   return (
-  <main className="h-[100dvh] w-[100dvw] lg:px-[530px] lg:bg-slate-800">
-    <ResumeInfo/>
-    <Background/>
+  <main 
+    className="h-[100lvh] w-[100lvw] lg:px-[530px] lg:bg-slate-800"
+  >
+    <PersonalInfo/>
+    <div 
+      className="flex h-2/3"
+    >
+      <Skills/>
+      <Experience/>
+    </div>
   </main>
   )
 }

@@ -5,7 +5,7 @@ interface SectionTitleProps {
 const SectionTitle = (props:SectionTitleProps) => {
     const { title } = props
     return ( 
-        <div className="flex items-center justify-center mx-6 mt-3 gap-2 wide:mt-1">
+        <div className="flex items-center justify-center gap-2 wide:mt-1">
             <h2 
                 className="text-base font-semibold h-max w-max whitespace-nowrap wide:text-xs"
             >

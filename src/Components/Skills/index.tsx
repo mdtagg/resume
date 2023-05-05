@@ -6,13 +6,13 @@ const Skills = () => {
     const skills = [
         {skill:"React",progress:"90%"},
         {skill:"Javascript",progress:"90%"},
-        {skill:"CSS/Tailwind",progress:"95%"},
+        {skill:"CSS",progress:"90%"},
         {skill:"Git",progress:"85%"},
         {skill:"Typescript",progress:"80%"}
     ]
 
     return ( 
-        <div className="flex flex-col pt-5 items-center h-full w-36 bg-zinc-800 text-white px-5 gap-4 wide:w-[60%] wide:h-[75%] wide:pt-1 wide:gap-[.07rem]">
+        <section className="flex flex-col justify-center items-center h-full w-36 bg-zinc-800 text-white px-5 gap-4 wide:w-[60%] wide:h-[75%] wide:pt-1 wide:gap-[.07rem]">
             <p className="text-xl font-bold wide:text-lg">Skills</p>
             <div className="flex flex-col gap-4 items-center wide:grid wide:grid-cols-2 wide:gap-0 wide:grid-flow-col wide:h-[85%] wide:items-start">
                 <p className="text-sm font-semibold">Personal Skills</p>
@@ -27,7 +27,7 @@ const Skills = () => {
                     <li>Public Speaking/Presentation</li>
                 </ul>
                 <p className="text-sm font-semibold wide:col-start-2 wide:col-end-3">Technical Skills</p>
-                <ul className=" flex flex-col text-xs gap-3 wide:col-start-2 wide:col-end-3 wide:gap-0">
+                <ul className=" flex flex-col text-xs gap-2 w-[90%] wide:col-start-2 wide:col-end-3 wide:gap-0">
                     {skills.map(entry => {
                         return (
                             <Skill
@@ -39,10 +39,8 @@ const Skills = () => {
                     })}
                 </ul>
             </div>
-        </div>
+        </section>
      );
 }
 
 export { Skills } ;
-
-// wide:grid wide:grid-cols-2 wide:grid-flow-row wide:p-0 wide:gap-0
