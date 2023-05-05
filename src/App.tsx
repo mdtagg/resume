@@ -15,10 +15,10 @@ function App() {
   
 
   return (
-  <div className="h-screen w-screen lg:px-[530px] lg:bg-slate-800">
+  <main className="h-[100dvh] w-[100dvw] lg:px-[530px] lg:bg-slate-800">
     <ResumeInfo/>
     <Background/>
-  </div>
+  </main>
   )
 }
 

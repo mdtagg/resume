@@ -1,5 +1,6 @@
 import { InfoBand } from "../InfoBand";
 import { SectionTitle } from "../SectionTitle";
+import portrait from '../../assets/portrait.jpg'
 
 const ResumeInfo = () => {
     return ( 
@@ -7,7 +8,7 @@ const ResumeInfo = () => {
             <div className="flex h-3/4">
                 <img
                     className="w-40 wide:w-44"
-                    src="/portrait.jpg"
+                    src={portrait}
                 >
                 </img>
                 <div className=" bg-white w-fit flex flex-col gap-1 justify-center">
