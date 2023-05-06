@@ -7,7 +7,7 @@ const SectionTitle = (props:SectionTitleProps) => {
     return ( 
         <div className="flex items-center justify-center gap-2 wide:mt-1">
             <h2 
-                className="text-base font-semibold h-max w-max whitespace-nowrap wide:text-xs"
+                className="text-sm font-semibold h-max w-max whitespace-nowrap wide:text-xs"
             >
                 {title}
             </h2>

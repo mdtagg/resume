@@ -19,7 +19,7 @@ const Entry = (props:EntryProps) => {
                 <p>{dateEnd}</p>
             </div>
             <div className="h-full relative z-10 w-1/5 flex flex-col justify-start items-center wide:w-[10%]">
-                <div className="h-3 w-3 rounded-full border border-black"></div>
+                <div className="h-3 w-3 grow-0 rounded-full border border-black"></div>
                 <div className="h-full border border-black"></div>
             </div>
             <div className="font-bold w-3/5 flex flex-col gap-1 wide:w-[80%] wide:gap-0">

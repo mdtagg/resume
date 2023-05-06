@@ -11,14 +11,14 @@ const PersonalInfo = () => {
                     src={portrait}
                 >
                 </img>
-                <div className="bg-white flex flex-col justify-center px-6 gap-1">
+                <div className="bg-white flex flex-col justify-center px-6 gap-4">
                     <SectionTitle
                         title="ABOUT ME"
                     />
                     <p className="text-[.6rem] line-clamp-[7] leading-[15px] text-left wide:text-xs">
                         Self taught front-end developer with a portfolio 
                         of projects written in react, typescript, javascript, css/tailwind, and html.
-                        I enjoy developing tools that bring value to others. I am always learning and find
+                        I am always learning and find
                         great satisfaction in creating solutions to complex problems. 
                     </p>
                 </div>
