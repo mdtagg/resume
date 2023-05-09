@@ -7,7 +7,7 @@ const PersonalInfo = () => {
         <section className="h-1/3 wide:h-[40%]">
             <div className="flex h-3/4">
                 <img
-                    className="w-36"
+                    className="w-36 wide:w-56 wide:h-40"
                     src={portrait}
                 >
                 </img>
@@ -23,7 +23,7 @@ const PersonalInfo = () => {
                     </p>
                 </div>
             </div>
-            <div className="flex justify-center h-1/4 bg-yellow-300 gap-3 wide:gap-0 wide:justify-around">
+            <div className="flex justify-center h-1/4 bg-yellow-300 gap-3 wide:gap-0 wide:justify-around wide:relative wide:z-10 wide:opacity-80">
                 <div className="flex flex-col justify-center wide:justify-start wide:w-2/5 wide:items-center">
                     <p className="text-lg font-bold wide:text-sm">MICHAEL TAGG</p>
                     <p className="font-semibold text-xs">FRONT-END DEVELOPER</p>

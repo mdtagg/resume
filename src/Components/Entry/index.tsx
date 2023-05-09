@@ -29,7 +29,7 @@ const Entry = (props:EntryProps) => {
                         {company}
                     </p>
                 }
-                <ul className="flex flex-col text-[.5rem] font-normal list-disc list-inside w-full gap-1 wide:gap-0 wide:grid wide:grid-cols-2">
+                <ul className="flex flex-col text-[.5rem] font-normal list-disc list-inside w-full gap-1 wide:gap-1 wide:grid wide:grid-cols-2">
                     {summary.map((entry) => {
                         return <li key={uuidv4()}>{entry}</li>
                     })}
