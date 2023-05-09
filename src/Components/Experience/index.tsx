@@ -7,10 +7,10 @@ const Experience =  () => {
         "weatherApp":
         [
             "Built with React and Tailwind and Typescript",
-            "Processes data from APIs, gives users information relating to rock types and the weather",
             "Uses a variety of React hooks, both built in and custom",
             "Dynamically renders layouts based on user input",
-            "Styled responsively"
+            "Styled responsively",
+            "Processes data from APIs, gives users rock type and the weather info of any given area",
         ],
         "REI": 
         [
@@ -26,7 +26,7 @@ const Experience =  () => {
     }
 
     return ( 
-        <div className="bg-white h-full flex flex-col px-5 justify-center gap-1 wide:gap-0 ">
+        <div className="bg-white h-full flex flex-col px-5 sm:justify-center gap-1 wide:gap-0 wide:w-full wide:px-5 wide:pt-1">
             <SectionTitle
                 title="RECENT PROJECTS"
             />

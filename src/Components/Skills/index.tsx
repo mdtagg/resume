@@ -12,7 +12,7 @@ const Skills = () => {
     ]
 
     return ( 
-        <section className="flex flex-col justify-center items-center w-36 bg-zinc-800 text-white px-5 gap-4 wide:w-[60%] wide:h-[75%] wide:pt-1 wide:gap-[.07rem]">
+        <section className="flex flex-col justify-center items-center w-36 bg-zinc-800 text-white px-5 gap-4 wide:w-[40%] wide:h-[75%] wide:gap-[.07rem]">
             <p className="text-xl font-bold wide:text-lg">Skills</p>
             <div className="flex flex-col gap-4 items-center wide:grid wide:grid-cols-2 wide:gap-0 wide:grid-flow-col wide:h-[85%] wide:items-start">
                 <p className="text-sm font-semibold">Personal Skills</p>
@@ -24,7 +24,6 @@ const Skills = () => {
                     <li>Version Control</li>
                     <li>Working Within Teams</li>
                     <li>Communication</li>
-                    <li>Public Speaking/Presentation</li>
                 </ul>
                 <p className="text-sm font-semibold wide:col-start-2 wide:col-end-3">Technical Skills</p>
                 <ul className=" flex flex-col text-xs gap-2 w-[90%] wide:col-start-2 wide:col-end-3 wide:gap-0">

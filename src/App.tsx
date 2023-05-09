@@ -11,7 +11,7 @@ function App() {
     >
       <PersonalInfo/>
       <div 
-        className="flex h-2/3"
+        className="flex h-2/3 wide:h-[80%]"
       >
         <Skills/>
         <Experience/>
