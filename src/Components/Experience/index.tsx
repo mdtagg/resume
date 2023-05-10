@@ -26,7 +26,7 @@ const Experience =  () => {
     }
 
     return ( 
-        <div className="bg-white h-full flex flex-col px-5 sm:justify-center gap-1 wide:gap-0 wide:px-5 wide:pt-1">
+        <div className="bg-white h-full flex flex-col px-5 justify-center gap-1 wide:gap-0 wide:px-5 wide:pt-1">
             <SectionTitle
                 title="RECENT PROJECTS"
             />
