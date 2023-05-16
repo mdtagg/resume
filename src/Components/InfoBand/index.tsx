@@ -37,7 +37,7 @@ const InfoBand = (props:InfoBandProps) => {
                 icon={iconType}
                 color="#fde047"
             />
-            <div className="flex flex-col gap-[.1rem] text-[.4rem] leading-[.4rem] wide:text-[.7rem] wide:gap-1">
+            <div className="flex flex-col gap-[.1rem] text-[.4rem] leading-[.4rem] wide:text-[.5rem] wide:gap-1">
                 <p className="font-bold">{type}</p>
                 <p>{text}</p>
             </div>

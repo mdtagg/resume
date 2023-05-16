@@ -24,7 +24,7 @@ const PersonalInfo = () => {
                 </div>
             </div>
             <div className="flex justify-center h-1/4 bg-yellow-300 gap-3 wide:gap-0 wide:justify-around wide:relative wide:z-10 wide:opacity-80 wide:bottom-1/4">
-                <div className="flex flex-col justify-center wide:justify-start wide:w-2/5 wide:items-center">
+                <div className="flex flex-col justify-center wide:justify-start wide:w-1/4 wide:items-center">
                     <p className="text-lg font-bold wide:text-sm">MICHAEL TAGG</p>
                     <p className="font-semibold text-xs">FRONT-END DEVELOPER</p>
                 </div>
