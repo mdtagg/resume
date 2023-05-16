@@ -12,11 +12,11 @@ const Skills = () => {
     ]
 
     return ( 
-        <section className="flex flex-col justify-center items-center bg-zinc-800 text-white px-5 gap-4 wide:w-[40%] wide:gap-1">
-            <p className="text-xl font-bold wide:text-lg">Skills</p>
+        <section className="flex flex-col justify-center items-center bg-zinc-800 text-white px-5 gap-4 wide:w-[40%] wide:gap-[1px] wide:text-[.4rem]">
+            <p className="text-xl font-bold wide:text-base">Skills</p>
             <div className="flex flex-col gap-4 justify-center items-center wide:grid wide:grid-cols-2 wide:gap-1 wide:grid-flow-col wide:items-start">
                 <p className="text-sm font-semibold">Personal Skills</p>
-                <ul className="flex flex-col text-[.5rem] items-start list-disc px-4 wide:text-[.6rem]">
+                <ul className="flex flex-col text-[.5rem] items-start list-disc px-4 wide:text-[.5rem]">
                     <li>Web Design</li>
                     <li>Front-End Libraries</li>
                     <li>Debugging</li>

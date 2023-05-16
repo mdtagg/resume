@@ -13,8 +13,8 @@ const ProgressBar = (props:ProgressBarProps) => {
     "w-[95%]"
 
     return ( 
-        <div className="h-2 w-full bg-gray-500">
-            <div className={`bg-yellow-300 h-2 ${progressVariant}`}></div>
+        <div className="h-2 w-full bg-gray-500 wide:h-1">
+            <div className={`bg-yellow-300 h-2 ${progressVariant} wide:h-1`}></div>
         </div>
      );
 }
