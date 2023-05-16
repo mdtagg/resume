@@ -7,7 +7,7 @@ const PersonalInfo = () => {
         <section className="h-1/3 wide:h-[40%]">
             <div className="flex h-3/4 wide:h-full">
                 <img
-                    className="w-36"
+                    className="w-32 wide:w-28"
                     src={portrait}
                 >
                 </img>
