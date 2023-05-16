@@ -28,7 +28,7 @@ const PersonalInfo = () => {
                     <p className="text-lg font-bold wide:text-sm">MICHAEL TAGG</p>
                     <p className="font-semibold text-xs">FRONT-END DEVELOPER</p>
                 </div>
-                <div className="flex bg-white border sm:flex-col justify-center gap-1 px-2 wide:p-0 wide:gap-3 wide:w-3/5">
+                <div className="flex bg-white border sm:flex-col justify-center gap-1 px-2 wide:p-0 wide:w-3/5 wide:grid wide:grid-cols-3 wide:gap-0">
                     <InfoBand
                         icon="phone"
                         type="Phone"
